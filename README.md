@@ -12,5 +12,7 @@ using unique values from each raw feature, we can seperate test data into three 
 [2] shows that LGBM can reach same auc(.900) after shuffling each raw feature individual, meaning there are barely interactions between features. By setting lower feature_fraction and lower num_leaves will help model NOT to learn from fake interaction, so do [3]data augment.
 
 [1] https://www.kaggle.com/yag320/list-of-fake-samples-and-public-private-lb-split
+
 [2] https://www.kaggle.com/brandenkmurray/randomly-shuffled-data-also-works
+
 [3] https://www.kaggle.com/jiweiliu/lgb-2-leaves-augment
