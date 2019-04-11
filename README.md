@@ -1,9 +1,11 @@
 # Kaggle_SCTP_31th-solution
 
 1. Seperate public/private/synthetic data from test data
+
 using unique values from each raw feature, we can seperate test data into three part: public/private/synthetic, and removing synthetic data is importance for generating frequency-based feature.
 
 2. Feature
+
 (1) raw feature: var_0 ~ var_199
 
 (2) drop count=1 values from each raw feature: var_0_repeat_2 ~ var_199_repeat_2 -> single LGBM should reach auc 0.922
