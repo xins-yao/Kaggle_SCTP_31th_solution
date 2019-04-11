@@ -16,7 +16,7 @@ using unique values from each raw feature, we can seperate test data into three 
 
 3. LGBM parameters
 
-[2] shows that LGBM can reach same auc(.900) after shuffling each raw feature individual, meaning there are barely interactions between features. By setting lower feature_fraction and lower num_leaves will help model NOT to learn from fake interaction, so do [3]data augment.
+[2] shows that LGBM can reach same auc(.900) after shuffling each raw feature individually, meaning there are barely interactions between features. By setting lower feature_fraction and lower num_leaves will help model NOT to learn from fake interaction, so do [3]data augment.
 
 
 Kernels:
